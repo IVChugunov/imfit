@@ -680,6 +680,14 @@ functionobject_obj_string += " func_gaussianring3d"  # requires integrator
 functionobject_obj_string += " func_ferrersbar3d"  # requires integrator
 functionobject_obj_string += " func_pointsource"
 functionobject_obj_string += " func_pointsource-rot"
+functionobject_obj_string += " func_spiral_spur"
+functionobject_obj_string += " func_spiral"
+functionobject_obj_string += " func_spiral_1b"
+functionobject_obj_string += " func_spiral_2b"
+functionobject_obj_string += " func_spiral_full"
+functionobject_obj_string += " func_spiral_full_1b"
+functionobject_obj_string += " func_spiral_full_2b"
+functionobject_obj_string += " func_bps"
 if useExtraFuncs:
     # experimental extra functions for personal testing
     functionobject_obj_string += " func_broken-exp-bar"

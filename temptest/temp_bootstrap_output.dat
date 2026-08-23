@@ -1,0 +1,21 @@
+# Best-fit model results for imfit 1.9.0 (OpenMP-enabled)
+# Generated on Mon Feb 23 17:38:59 2026 by the following command:
+#    ./imfit tests/ic3478rss_64x64.fits -c tests/imfit_reference/imfit_config_ic3478_64x64b.dat --seed 10 --bootstrap 5 --save-bootstrap temptest/temp_bootstrap_output.dat
+#
+#
+#X0		32.9439
+#Y0		34.0933
+#FUNCTION Sersic
+#PA		18.2612		# deg (CCW from +y axis)
+#ell		0.235989
+#n		2.40028
+#I_e		20.0094		# counts/pixel
+#r_e		60.7612		# pixels
+#
+# Bootstrap resampling output (5 iterations requested):
+# X0_1		Y0_1		PA_1	ell_1	n_1	I_e_1	r_e_1	
+32.95308050	34.11944163	18.01701898	0.2328484220	2.415204223	19.68005997	61.34187565
+32.90890711	34.09187403	18.67735739	0.2367431313	2.384060060	20.18405125	60.52669874
+32.93601461	34.02577178	18.31447749	0.2332945749	2.369359204	20.62289023	59.41423668
+32.96227662	34.10840801	18.41373654	0.2352079639	2.404208295	20.09082945	60.45350824
+32.92217910	34.05858506	17.96043511	0.2432690134	2.334375728	21.21359924	58.76094340

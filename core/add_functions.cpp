@@ -65,6 +65,14 @@
 #include "func_ferrersbar3d.h"
 #include "func_pointsource.h"
 #include "func_pointsource-rot.h"
+#include "func_spiral_spur.h"
+#include "func_spiral.h"
+#include "func_spiral_1b.h"
+#include "func_spiral_2b.h"
+#include "func_spiral_full.h"
+#include "func_spiral_full_1b.h"
+#include "func_spiral_full_2b.h"
+#include "func_bps.h"
 //#endif
 
 // ADD INCLUDE FILE FOR NEW FUNCTIONS HERE
@@ -252,6 +260,30 @@ void PopulateFactoryMap( map<string, factory*>& input_factory_map )
 
   PointSourceRot::GetClassShortName(classFuncName);
   input_factory_map[classFuncName] = new funcobj_factory<PointSourceRot>();
+
+  SpiralSpur::GetClassShortName(classFuncName);
+  input_factory_map[classFuncName] = new funcobj_factory<SpiralSpur>();
+
+  SpiralArm::GetClassShortName(classFuncName);
+  input_factory_map[classFuncName] = new funcobj_factory<SpiralArm>();
+
+  SpiralArm1b::GetClassShortName(classFuncName);
+  input_factory_map[classFuncName] = new funcobj_factory<SpiralArm1b>();
+
+  SpiralArm2b::GetClassShortName(classFuncName);
+  input_factory_map[classFuncName] = new funcobj_factory<SpiralArm2b>();
+
+  SpiralArmFull::GetClassShortName(classFuncName);
+  input_factory_map[classFuncName] = new funcobj_factory<SpiralArmFull>();
+
+  SpiralArmFull1b::GetClassShortName(classFuncName);
+  input_factory_map[classFuncName] = new funcobj_factory<SpiralArmFull1b>();
+
+  SpiralArmFull2b::GetClassShortName(classFuncName);
+  input_factory_map[classFuncName] = new funcobj_factory<SpiralArmFull2b>();
+
+  SersicBPS::GetClassShortName(classFuncName);
+  input_factory_map[classFuncName] = new funcobj_factory<SersicBPS>();
 //#endif
 
 // ADD CODE FOR NEW FUNCTIONS HERE

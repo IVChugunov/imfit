@@ -1,0 +1,153 @@
+	Image file = tests/ic3478rss_64x64.fits
+	configuration file = tests/imfit_reference/imfit_config_ic3478_64x64b.dat
+Value from config file: gain = 4.725000 e-/ADU
+Value from config file: read noise = 4.300000 e-
+Value from config file: original sky = 130.100000
+Reading data image ("tests/ic3478rss_64x64.fits") ...
+naxis1 [# pixels/row] = 64, naxis2 [# pixels/col] = 64; nPixels_tot = 4096
+* No PSF image supplied -- no image convolution will be done!
+* No noise image supplied ... will generate noise image from input data image.
+Function: Sersic
+7 total parameters
+Model Object: 4096 data values (pixels)
+ModelObject: mask vector applied to weight vector. (4096 valid pixels remain)
+7 free parameters (4089 degrees of freedom)
+Estimated memory use: 458752 bytes (448.0 KB)
+
+Performing fit by minimizing chi^2 (data-based errors):
+Calling Levenberg-Marquardt solver ...
+	mpfit iteration 1: fit statistic = 263212.803626
+X0		32.3912
+Y0		32.7346
+FUNCTION Sersic
+PA		18.0332		# deg (CCW from +y axis)
+ell		      0
+n		1.81654
+I_e		 19.043		# counts/pixel
+r_e		30.4484		# pixels
+	mpfit iteration 2: fit statistic = 38837.129878
+X0		32.8246
+Y0		33.5074
+FUNCTION Sersic
+PA		18.0332		# deg (CCW from +y axis)
+ell		      0
+n		2.20493
+I_e		24.7011		# counts/pixel
+r_e		38.3852		# pixels
+	mpfit iteration 3: fit statistic = 16396.741582
+X0		32.9992
+Y0		34.0253
+FUNCTION Sersic
+PA		 9.5127		# deg (CCW from +y axis)
+ell		      0
+n		2.40435
+I_e		19.0899		# counts/pixel
+r_e		51.3035		# pixels
+	mpfit iteration 4: fit statistic = 15801.465109
+X0		32.9949
+Y0		34.0302
+FUNCTION Sersic
+PA		     90		# deg (CCW from +y axis)
+ell		      0
+n		 2.4068
+I_e		19.1047		# counts/pixel
+r_e		51.5243		# pixels
+	mpfit iteration 5: fit statistic = 12632.892962
+X0		32.9481
+Y0		34.0852
+FUNCTION Sersic
+PA		     90		# deg (CCW from +y axis)
+ell		      0
+n		2.43402
+I_e		19.2687		# counts/pixel
+r_e		53.9765		# pixels
+	mpfit iteration 6: fit statistic = 12632.219288
+X0		32.9486
+Y0		34.0896
+FUNCTION Sersic
+PA		      0		# deg (CCW from +y axis)
+ell		      0
+n		2.43445
+I_e		19.2542		# counts/pixel
+r_e		53.9852		# pixels
+	mpfit iteration 7: fit statistic = 8035.495720
+X0		32.9468
+Y0		34.0972
+FUNCTION Sersic
+PA		      0		# deg (CCW from +y axis)
+ell		0.183728
+n		 2.3959
+I_e		20.2937		# counts/pixel
+r_e		56.7958		# pixels
+	mpfit iteration 8: fit statistic = 5030.124432
+X0		32.9460
+Y0		34.0952
+FUNCTION Sersic
+PA		22.8195		# deg (CCW from +y axis)
+ell		0.194073
+n		2.41825
+I_e		19.5724		# counts/pixel
+r_e		59.8547		# pixels
+	mpfit iteration 9: fit statistic = 4571.915475
+X0		32.9433
+Y0		34.0951
+FUNCTION Sersic
+PA		17.1149		# deg (CCW from +y axis)
+ell		0.234529
+n		2.40352
+I_e		19.9385		# counts/pixel
+r_e		60.7685		# pixels
+	mpfit iteration 10: fit statistic = 4555.955070
+X0		32.9442
+Y0		34.0933
+FUNCTION Sersic
+PA		18.2678		# deg (CCW from +y axis)
+ell		0.235804
+n		2.40046
+I_e		20.0058		# counts/pixel
+r_e		  60.76		# pixels
+	mpfit iteration 11: fit statistic = 4555.947657
+X0		32.9440
+Y0		34.0933
+FUNCTION Sersic
+PA		18.2612		# deg (CCW from +y axis)
+ell		0.235989
+n		 2.4003
+I_e		20.0089		# counts/pixel
+r_e		60.7621		# pixels
+	mpfit iteration 12: fit statistic = 4555.947654
+X0		32.9439
+Y0		34.0933
+FUNCTION Sersic
+PA		18.2612		# deg (CCW from +y axis)
+ell		0.235989
+n		2.40028
+I_e		20.0094		# counts/pixel
+r_e		60.7612		# pixels
+
+*** mpfit status = 1 -- SUCCESS: Convergence in fit-statistic value.
+  CHI-SQUARE = 4555.947654    (4089 DOF)
+  INITIAL CHI^2 = 494330.961892
+        NPAR = 7
+       NFREE = 7
+     NPEGGED = 0
+     NITER = 13
+      NFEV = 98
+
+Reduced Chi^2 = 1.114196
+AIC = 4569.975051, BIC = 4614.172017
+
+X0		32.9439 # +/- 0.0128
+Y0		34.0933 # +/- 0.0156
+FUNCTION Sersic
+PA		18.2612 # +/- 0.30986	deg (CCW from +y axis)
+ell		0.235989 # +/- 0.0023165
+n		2.40028 # +/- 0.018072
+I_e		20.0094 # +/- 0.40396	counts/pixel
+r_e		60.7612 # +/- 0.86063	pixels
+
+Saving best-fit parameters in file "bestfit_parameters_imfit.dat"
+
+(Elapsed time: 0.045934 sec for fit, 0.047907 sec total)
+Done!
+
