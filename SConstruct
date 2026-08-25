@@ -688,6 +688,7 @@ functionobject_obj_string += " func_spiral_full"
 functionobject_obj_string += " func_spiral_full_1b"
 functionobject_obj_string += " func_spiral_full_2b"
 functionobject_obj_string += " func_bps"
+functionobject_obj_string += " func_edge-on-broken-disk"
 if useExtraFuncs:
     # experimental extra functions for personal testing
     functionobject_obj_string += " func_broken-exp-bar"

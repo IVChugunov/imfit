@@ -73,6 +73,7 @@
 #include "func_spiral_full_1b.h"
 #include "func_spiral_full_2b.h"
 #include "func_bps.h"
+#include "func_edge-on-broken-disk.h"
 //#endif
 
 // ADD INCLUDE FILE FOR NEW FUNCTIONS HERE
@@ -284,6 +285,9 @@ void PopulateFactoryMap( map<string, factory*>& input_factory_map )
 
   SersicBPS::GetClassShortName(classFuncName);
   input_factory_map[classFuncName] = new funcobj_factory<SersicBPS>();
+
+  EdgeOnBrokenDisk::GetClassShortName(classFuncName);
+  input_factory_map[classFuncName] = new funcobj_factory<EdgeOnBrokenDisk>();
 //#endif
 
 // ADD CODE FOR NEW FUNCTIONS HERE

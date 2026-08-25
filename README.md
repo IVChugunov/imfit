@@ -9,6 +9,9 @@ is an open-source C++ program for fitting astronomical images
 (primarily of galaxies) in FITS format. It is fast, flexible, and designed to be easily
 extended with new functions for model image components.
 
+This version is a modification by Ilia V. Chugunov which contains a few custom functions of spiral arms,
+B/PS structure (SersicBPS) and edge-on disk with break (EdgeOnBrokenDisc).
+
 **Examples of Use:**
 
 Fitting an image:
